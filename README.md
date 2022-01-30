@@ -1,2 +1,2 @@
 # geektime
-notes and homework
+practice and homework
