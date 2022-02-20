@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option go_package = "homework04/api";
+
+service UserService {
+    rpc Start (UserInfoRequest) returns (UserInfoReply) {}
+}
+
+message UserInfoRequest {
+  string usn = 1;
+}
+
+message UserInfoReply {
+  string name = 1;
+}
